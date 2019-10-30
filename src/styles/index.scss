@@ -1,6 +1,113 @@
-$body-color: slateblue;
+$body-color: white;
 
 body {
   color: $body-color;
   font-family: sans-serif;
+  font-size: 12px;
+  text-align: center;
+  background-color: aquamarine;
+  background-image: url("../images/img_bg_sky_normal.jpg");
+  display: flex;
+  flex-direction: row;
+}
+
+.one {
+  margin-top: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+}
+.everything {
+  background-color: rgba(98, 159, 225, 0.386);
+  width: 500px;
+  height: 330px;
+  margin-top: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 3%;
+  text-align: center;
+}
+
+.question {
+  height: 30px;
+  background-color: rgba(162, 216, 235, 0.502);
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding-top: 15px;
+}
+p {
+  font-size: 15px;
+  margin: auto;
+}
+.imageList {
+  //padding-top: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.row {
+  margin-left: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  padding-right: 20px;
+  position: relative;
+  width: 50%;
+}
+.pic {
+  width: 80px;
+  height: 55px;
+  border-radius: 3%;
+  pointer-events: none;
+  border: darkgreen;
+}
+
+.pic:hover {
+  width: 90px;
+}
+
+.behind {
+  position: relative;
+  width: 80px;
+  height: 60%;
+  border-radius: 3%;
+  background-color: darkblue;
+}
+
+button {
+  width: 40%;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  background-color: rgb(144, 145, 154);
+  color: white;
+}
+button:active {
+  background-color: #ff871c;
+}
+.arrow {
+  transform: rotate(90deg);
+  width: 7px;
+  margin-top: 30%;
+}
+.arrowButton {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(163, 165, 165);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 35%;
+  margin-right: auto;
+  margin-left: 10px;
 }
